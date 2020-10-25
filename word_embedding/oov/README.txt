@@ -1,0 +1,1 @@
+oov_v1: does not use <UNKNOWN> word in training step

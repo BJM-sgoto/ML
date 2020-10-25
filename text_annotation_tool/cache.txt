@@ -1,0 +1,2 @@
+F:/Programming/Git/TF_KR/text_annotation_tool/input
+F:/Programming/Git/TF_KR/text_annotation_tool/output

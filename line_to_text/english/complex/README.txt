@@ -1,0 +1,1 @@
+read text of infinite length

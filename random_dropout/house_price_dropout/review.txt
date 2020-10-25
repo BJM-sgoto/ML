@@ -1,0 +1,85 @@
+MSSubClass			Categorical(16)				Full			0.1 drop
+MSZoning				Categorical(8)				Full			0.2 drop
+LotFrontage			Continuous						0.82			0.2 drop
+LotArea					Continuous						Full			0.1 drop
+Street					Categorical(2)				Full			0.3 drop
+Alley						Categorical(3)				0.06			0.3 drop				NA = No Alley
+LotShape				Categorical(4)				Full			0.1 drop
+LandContour			Categorical(4)				Full			0.2 drop
+Utilities				Categorical(4)				Full			0.2 drop
+LotConfig				Categorical(5)				Full			0.1 drop
+LandSlope				Categorical(5)				Full			0.2 drop
+Neighborhood		Categorical(25)				Full			0.2 drop
+Condition1			Categorical(9)				Full			0.3 drop
+Condition2			Categorical(9)				Full			1.0 drop				XXX
+BldgType				Categorical(5)				Full			0.2 drop
+HouseStyle			Categorical(8)				Full			0.2 drop
+OverallQual			Categorical(10)				Full			0.2 drop
+OverallCond			Categorical(10)				Full			0.1 drop
+YearBuilt				Continuous						Full			0.2 drop
+YearRemodAdd		Continuous						Full			0.2 drop
+Functional			Categorical(8)				Full			0.1 drop
+
+RoofStyle				Categorical(6)				Full			0.3 drop
+RoofMatl				Categorical(8)				Full			0.3 drop
+Exterior1st			Categorical(17)				Full			0.3 drop
+Exterior2nd			Categorical(17)				Full			0.3 drop
+MasVnrType			Categorical(5)				0.99			0.3 drop
+MasVnrArea			Continuous						0.99			0.3 drop
+ExterQual				Categorical(5)				Full			0.3 drop
+ExterCond				Categorical(5)				Full			0.3 drop
+
+Foundation			Categorical(6)				Full			0.1 drop
+BsmtQual				Categorical(6)				0.97			0.2 drop				NA = No Basement
+BsmtCond				Categorical(6)				0.97			0.2 drop				NA = No Basement
+BsmtExposure		Categorical(5)				0.97			0.2 drop				NA = No Basement
+BsmtFinType1		Categorical(7)				0.97			0.2 drop				NA = No Basement
+BsmtFinSF1			Continuous						Full			0.2 drop
+BsmtFinType2		Categorical(7)				0.97			0.2 drop				NA = No Basement
+BsmtFinSF2			Continuous						Full			0.2 drop
+BsmtUnfSF				Continuous						Full			0.2 drop
+TotalBsmtSF			Continuous						Full			1.0 drop				XXX
+
+Heating					Categorical(6)				Full			0.3 drop
+HeatingQC				Categorical(5)				Full			0.2 drop
+CentralAir			Categorical(2)				Full			0.2 drop
+Electrical			Categorical(5)				0.99			0.2 drop
+1stFlrSF				Continuous						Full			0.1 drop
+2ndFlrSF				Continuous						Full			0.1 drop
+LowQualFinSF		Continuous						Full			0.2 drop
+GrLivArea				Continuous						Full			0.1 drop
+
+BsmtFullBath		Continuous						Full			0.2 drop
+BsmtHalfBath		Continuous						Full			0.2 drop
+FullBath				Continuous						Full			0.2 drop
+HalfBath				Continuous						Full			0.2 drop
+BedroomAbvGr		Continuous						Full			0.2 drop
+KitchenAbvGr		Continuous						Full			0.2 drop
+KitchenQual			Categorical(5)				0.99			0.2 drop				
+TotRmsAbvGrd		Continuous						Full			1.0 drop 				XXX
+Fireplaces			Continuous						Full			0.3 drop
+FireplaceQu			Categorical(8)				0.53			0.3 drop				NA = No Fireplace
+EnclosedPorch		Continuous						Full			0.3 drop
+3SsnPorch				Continuous						Full			0.1 drop
+ScreenPorch			Continuous						Full			0.2 drop
+
+GarageType			Categorical(8)				0.94			0.2 drop				NA = No Garage
+GarageYrBlt			Continuous						0.94			0.2 drop				NA = No Garage
+GarageFinish		Categorical(4)				0.94			0.2 drop				NA = No Garage
+GarageCars			Continuous						Full			0.2 drop
+GarageArea			Continuous						0.94			0.2 drop				NA = No Garage
+GarageQual			Categorical(6)				0.94			0.2 drop				NA = No Garage
+GarageCond			Categorical(6)				0.94			0.2 drop				NA = No Garage
+PavedDrive			Categorical(9)				Full			0.3 drop
+WoodDeckSF			Continuous						Full			0.3 drop
+OpenPorchSF			Continuous						Full			0.3 drop
+PoolArea				Continuous						Full			0.1 drop
+PoolQC					Categorical(5)				0.00			0.1 drop				NA = No Pool
+Fence						Categorical(5)				0.19			0.3 drop				NA = No Fence
+
+MiscFeature			Categorical(6)				Full			1.0 drop				XXX
+MiscVal					Continuous						Full			0.0 drop
+MoSold					Continuous						Full			1.0 drop				XXX
+YrSold					Continuous						Full			0.2 drop
+SaleType				Categorical(10)				Full			0.2 drop
+SaleCondition		Categorical(10)				Full			0.2 drop

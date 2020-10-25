@@ -1,0 +1,29 @@
+- change network
+	- output valid actions
+
+- change board class
+	- fix win condition
+	- fix shape of board_state
+	- fix policy_value_fn function(reshape, value is a number)
+
+- do not use mcts_pure file
+- change name state to board in mcts class
+- in get_action function, change : self.mcts.update_with_move(-1) => self.mcts.update_with_move(last_move)
+- in file mcts_pure remove policy_value_fn function for __init__ function
+- in mcts.get_action function change : self.mcts.update_with_move(-1) => self.mcts.update_with_move(move) 
+
+
+- drop 'kl'
+- drop 'entropy'
+----------------------
+
+
+
+try to implement rollout with GPU
+- if does not rollout to the end of the game, use value net
+- if rollouts to the end of the game, do not use value net
+- if rollouts to the end of the game, use value net
+
+
+(*): print board state and policy in function get_equi_data, check zero position
+(*): print board state and policy in function get_equi_data, check zero position
